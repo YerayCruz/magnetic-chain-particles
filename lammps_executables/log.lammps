@@ -1,4 +1,0 @@
-LAMMPS (18 Jun 2019)
-lmp_serial -in
-ERROR: Unknown command: lmp_serial -in (../input.cpp:238)
-Last command: lmp_serial -in
