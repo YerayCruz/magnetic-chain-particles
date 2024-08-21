@@ -1,0 +1,18 @@
+This is the initial atom setup of /home/hapless/Projects/LammpsScripts/Test2/test.lmpdata
+3 atoms 
+1 atom types 
+0 bonds 
+0 bond types 
+-9.5 9.5 xlo xhi 
+-9.5 9.5 ylo yhi 
+-1.5 1.5 zlo zhi 
+
+Atoms
+
+1	 1	 -6.407038630046381	 0.0	 0.0	 2.8	 0.005147941820269122	 0.0	 0	 0	 0	 1	 1 #atom id|type|x0|y0|z0|d|rho|m|mx|my|mz|chi|trap_id
+2	 1	 0.0	 0.0	 0.0	 2.8	 0.005147941820269122	 0.0	 0	 0	 0	 1	 2 #atom id|type|x0|y0|z0|d|rho|m|mx|my|mz|chi|trap_id
+3	 1	 6.407038630046381	 0.0	 0.0	 2.8	 0.005147941820269122	 0.0	 0	 0	 0	 1	 3 #atom id|type|x0|y0|z0|d|rho|m|mx|my|mz|chi|trap_id
+
+PairIJ Coeffs
+
+1 1 lj/cut/dipole/cut 0.01 2.49451641079295 2.8 20
