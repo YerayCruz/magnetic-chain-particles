@@ -1,14 +1,14 @@
-#Help
+#Still help :(
 
-3 atoms
-2 bonds
+2 atoms
+1 bonds
 0 angles
 1 atom types
 1 bond types
 0 angle types
--20.0 20.0 xlo xhi 
--20.0 20.0 ylo yhi 
--10.5 10.5 zlo zhi 
+-15.0 15.0 xlo xhi
+-15.0 15.0 ylo yhi
+-15.0 15.0 zlo zhi
 
 Masses
 
@@ -16,27 +16,27 @@ Masses
 
 Atoms
 
-1	 1	 -2.0	 0.0	 0.0	 2.8	 0.005147941820269122	 0.0	 0	 0	 0	 1	 1 #atom id|type|x0|y0|z0|d|rho|m|mx|my|mz|chi|trap_id
-2	 1	 0.0	 0.0	 0.0	 2.8	 0.005147941820269122	 0.0	 0	 0	 0	 1	 2 #atom id|type|x0|y0|z0|d|rho|m|mx|my|mz|chi|trap_id
-3	 1	 2.0	 0.0	 0.0	 2.8	 0.005147941820269122	 0.0	 0	 0	 0	 1	 3 #atom id|type|x0|y0|z0|d|rho|m|mx|my|mz|chi|trap_id
+1        1       -2.407038630046381      0.0     0.0     2.8     0.005147941820269122        0.0     0       0       0       0.4       1 #atom id|type|x0|y0|z0|d|rho|m|mx|my|mz|chi|trap_id
+2        1       0.0     0.0     0.0     2.8     0.005147941820269122    0.0 0       0       0       0.4       2 #atom id|type|x0|y0|z0|d|rho|m|mx|my|mz|chi|trap_id
+#3        1       2.407038630046381       0.0     0.0     2.8     0.005147941820269122        0.0     0       0       0       0.4       3 #atom id|type|x0|y0|z0|d|rho|m|mx|my|mz|chi|trap_id
 
 PairIJ Coeffs
 
 1 1 lj/cut/dipole/cut 0.01 2.49451641079295 2.8 20
 
-Bond Coeffs
-
-1 0.0 4.0 1.0 2.0
-
 Bonds
 
 1 1 1 2
-2 1 2 3
+#2 1 2 3
 
 #Angles
 
 #1 1 1 2 3
 
+Bond Coeffs
+
+1 0.0 200.0 1.0 2.0
+
 #Angle Coeffs
 
-#1 0.01 180.0
+#1 100.0 170.0
